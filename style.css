@@ -39,14 +39,48 @@ p{
 }
 @media only screen and (max-width: 600px) {
     body {
+        display: block;
       background-color: rgb(48, 56, 58);
-      width: fit-content;
+      width: 0%;
+      padding-right: 50%;
     }
 
   }
-  @media screen and (min-width:915) {
+  @media  screen and (min-width:915px) {
     body{
-        width: fit-content;
+        display: block;
+        width: 45%;
+        background-color: rgb(48, 48, 54);
+        padding: 0px;
+        margin: 20%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+  }
+  @media screen and (min-width:601px){
+
+    body{
+        display: block;
+        width: 50%;
+        padding: 50px;
+        margin: 0;
+        background-color: rgb(55, 59, 59);
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+  }
+  @media screen and (min-width:1366px){
+    body{
+        display: block;
+        margin-left: 40%;
+        margin-right: 50%;
+        padding: 100px;
+        
+
+
     }
     
   }
